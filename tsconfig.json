@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "types": ["requirejs", "jasmine"],
+        "target": "es5",
+        "module": "amd"
+    }
+}

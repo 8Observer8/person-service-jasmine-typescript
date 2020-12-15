@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TypeScript Project</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/jasmine/jasmine/master/images/jasmine_favicon.png"
+        type="image/x-icon">
+
+    <!-- AMD -->
+    <script data-main="dist_client/RequireConfig"
+        src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+    <!-- Bundle -->
+    <!-- <script src="dist_client/bundle.client.min.js"></script> -->
+</head>
+
+<body>
+    <button onclick="window.location.href='SpecRunner.html'">Run Unit Tests</button>
+    <br>
+    <br>
+    Id: <input type="text" id="inputId"><br>
+    Name: <input type="text" id="inputName"><br>
+    Result: <span id="result"></span><br>
+    <button id="btnResult">Save</button>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": false,
+        "outDir": "dist_specs"
+    },
+    "files": [
+        "src_specs/Calculator.spec.ts",
+        "src_client/Calculator.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src_client"
+    ]
+}
